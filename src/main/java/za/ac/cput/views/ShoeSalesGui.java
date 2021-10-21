@@ -18,8 +18,8 @@ public class ShoeSalesGui extends JFrame implements ActionListener {
     public ShoeSalesGui(){
         super("Shoe Sales Application");
         lblMenuName = new JLabel("Shoe Menu", (int) CENTER_ALIGNMENT);
-        btnAddShoe = new JButton("Add a New Shoe");
-        btnGetShoe = new JButton("View All Shoe");
+        btnAddShoe = new JButton("Add a New Shoes");
+        btnGetShoe = new JButton("View All Shoes");
         btnUpdateShoe = new JButton("Update Shoe Details");
         btnDeleteShoe = new JButton("Delete Shoe");
         lblPadding = new JLabel("             ");
